@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -33,6 +33,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.google.firebase.encoders.json.BuildConfig;
 import com.google.gson.Gson;
 import com.permissionx.guolindev.PermissionX;
 import com.permissionx.guolindev.callback.RequestCallback;
@@ -56,7 +57,7 @@ import java.util.List;
 import java.util.Map;
 
 import pub.devrel.easypermissions.EasyPermissions;
-import vn.cser21.QRCodeFragment;
+import vn.cservn2020.QRCodeFragment;
 
 
 public class App21 {
@@ -212,7 +213,9 @@ public class App21 {
             if (params == null || "".equals(params)) return map;
             for (String seg : params.split(",")) {
                 String[] arr = seg.split(":");
-                map.putIfAbsent(arr[0], arr.length > 1 ? arr[1] : null);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    map.putIfAbsent(arr[0], arr.length > 1 ? arr[1] : null);
+                }
             }
         } catch (Exception e) {
             //
@@ -245,7 +248,7 @@ public class App21 {
             public void run() {
                 Intent intent = new Intent(mContext, MainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                PendingIntent pendingIntent = PendingIntent.getActivity(mContext, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+                PendingIntent pendingIntent = PendingIntent.getActivity(mContext, 0, intent, PendingIntent.FLAG_IMMUTABLE);
                 AlarmManager mgr = (AlarmManager) mContext.getSystemService(Context.ALARM_SERVICE);
                 mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, pendingIntent);
                 System.exit(0);

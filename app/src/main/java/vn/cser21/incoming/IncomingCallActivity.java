@@ -1,4 +1,4 @@
-package vn.cser21.incoming;
+package vn.cservn2020.incoming;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,8 +18,8 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import vn.cser21.MainActivity;
-import vn.cser21.R;
+import vn.cservn2020.MainActivity;
+import vn.cservn2020.R;
 
 public class IncomingCallActivity extends AppCompatActivity {
 

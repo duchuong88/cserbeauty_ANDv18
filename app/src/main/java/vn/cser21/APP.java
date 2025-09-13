@@ -1,9 +1,9 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.app.Application;
 import android.content.Context;
 
-import vn.cser21.incoming.Foreground;
+import vn.cservn2020.incoming.Foreground;
 
 public class APP extends Application {
 

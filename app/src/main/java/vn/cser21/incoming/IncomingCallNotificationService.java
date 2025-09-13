@@ -1,4 +1,4 @@
-package vn.cser21.incoming;
+package vn.cservn2020.incoming;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -23,8 +23,8 @@ import androidx.core.app.TaskStackBuilder;
 
 import org.greenrobot.eventbus.EventBus;
 
-import vn.cser21.MainActivity;
-import vn.cser21.R;
+import vn.cservn2020.MainActivity;
+import vn.cservn2020.R;
 
 public class IncomingCallNotificationService extends Service {
 

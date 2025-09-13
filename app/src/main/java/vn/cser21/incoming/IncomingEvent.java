@@ -1,4 +1,4 @@
-package vn.cser21.incoming;
+package vn.cservn2020.incoming;
 
 public class IncomingEvent {
     public String url;

@@ -1,4 +1,4 @@
-package vn.cser21.incoming;
+package vn.cservn2020.incoming;
 
 public class CallNotEndEvent {
     public int id;

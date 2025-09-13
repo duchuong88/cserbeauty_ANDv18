@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
@@ -7,9 +7,9 @@ import com.google.gson.Gson;
 
 import java.io.IOException;
 
-import vn.cser21.App21;
-import vn.cser21.DownloadFilesTask;
-import vn.cser21.Result;
+import vn.cservn2020.App21;
+import vn.cservn2020.DownloadFilesTask;
+import vn.cservn2020.Result;
 
 public class Record21 {
 

@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
@@ -9,7 +9,7 @@ import com.google.gson.Gson;
 import java.io.File;
 import java.io.FileOutputStream;
 
-import vn.cser21.Result;
+import vn.cservn2020.Result;
 
 public class ImageUtil extends AsyncTask<Result, Result, Result> {
 

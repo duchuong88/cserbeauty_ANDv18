@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,9 +22,9 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import vn.cser21.App21;
-import vn.cser21.Callback21;
-import vn.cser21.Result;
+import vn.cservn2020.App21;
+import vn.cservn2020.Callback21;
+import vn.cservn2020.Result;
 
 public class Loction21 {
     public Context mContext;

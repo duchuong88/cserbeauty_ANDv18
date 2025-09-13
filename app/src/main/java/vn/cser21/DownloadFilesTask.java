@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -31,7 +31,7 @@ import java.util.Base64;
 import java.util.Date;
 import java.util.List;
 
-import vn.cser21.App21;
+import vn.cservn2020.App21;
 
 public class DownloadFilesTask extends AsyncTask<String, String, String> {
     public App21 app21;

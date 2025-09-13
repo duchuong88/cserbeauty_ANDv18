@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.os.AsyncTask;
 import android.os.NetworkOnMainThreadException;
@@ -12,7 +12,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import vn.cser21.Callback21;
+import vn.cservn2020.Callback21;
 
 public class Fetch21 {
     public void fetch(final String url,final Callback21 callback21){

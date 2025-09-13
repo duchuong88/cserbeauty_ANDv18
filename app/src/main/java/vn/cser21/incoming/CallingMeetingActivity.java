@@ -1,4 +1,4 @@
-package vn.cser21.incoming;
+package vn.cservn2020.incoming;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,8 +18,8 @@ import org.greenrobot.eventbus.EventBus;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import vn.cser21.MainActivity;
-import vn.cser21.R;
+import vn.cservn2020.MainActivity;
+import vn.cservn2020.R;
 
 public class CallingMeetingActivity extends AppCompatActivity {
 

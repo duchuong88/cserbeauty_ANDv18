@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -19,8 +19,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.UUID;
 
-import vn.cser21.App21;
-import vn.cser21.Result;
+import vn.cservn2020.App21;
+import vn.cservn2020.Result;
 
 public class PostFileToServer extends AsyncTask<Result, Result, Result> {
     public App21 app21;

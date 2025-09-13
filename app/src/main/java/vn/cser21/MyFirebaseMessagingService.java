@@ -1,4 +1,4 @@
-package vn.cser21;
+package vn.cservn2020;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -31,10 +31,10 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Random;
 
-import vn.cser21.incoming.Foreground;
-import vn.cser21.incoming.IncomingCallActivity;
-import vn.cser21.incoming.IncomingCallNotificationService;
-import vn.cser21.incoming.IncomingEvent;
+import vn.cservn2020.incoming.Foreground;
+import vn.cservn2020.incoming.IncomingCallActivity;
+import vn.cservn2020.incoming.IncomingCallNotificationService;
+import vn.cservn2020.incoming.IncomingEvent;
 
 
 //https://github.com/jirawatee/FirebaseCloudMessaging-Android/blob/master/app/src/main/java/com/example/fcm/MyFirebaseMessagingService.java
